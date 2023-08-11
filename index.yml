@@ -1,0 +1,106 @@
+title: FEED 2023 - Foro de deseño - DAG
+
+header:
+  title: Foro de deseño
+  subtitle: |
+    Santiago de Compostela<br>
+    3-4.11.2023
+
+about: |
+  Celebramos a 5a edición do Foro bianual FEED para dar a coñecer e compartir as experiencias de profesionais do deseño, tanto galegos como de ámbito nacional, que buscan a diferenciación para chegar a un público cada vez máis exixente e con necesidades máis personalizadas. Proxectos de deseño gráfico, deseño de produto, deseño dixital, deseño de estratexia ou deseño de servizos, e a participación de estudantes de diferentes escolas de deseño de Galicia, completan un programa que busca a implicación e o intercambio de coñecemento en prol dunha mellor integración do deseño na sociedade actual.
+
+  Dous días con obradoiros formativos nas xornadas de mañá e conferencias e presentacións de proxectos nas xornadas de tarde, onde contaremos coa presenza de Artur Galocha, que amosará a evolución do seu traballo e impartirá o primeiro obradoiro de deseño editorial; a deseñadora de tipografías María Ramos, que fará un percorrido pola tipografía contemporánea e falará dos procesos creativos neste campo; e Carmen Lanza, experta en deseño de espazos interactivos en empresas de ámbito internacional. Pechamos o primeiro día coa presentación de proxectos fin de curso dos futuros deseñadores galegos.
+
+timetable:
+  title: Programa
+  days:
+    - title: Venres 3
+      events:
+        - time: 10:00 - 13:30
+          text: |
+            Obradoiro
+            **Deseño gráfico a través de *motion***
+            David Galar (Thru Studio)
+        - time: "15:30"
+          text: <span>Acreditación</span>
+        - time: 16:00 - 16:15
+          text: |
+            **Inauguración FEED 2023**
+            Xóse García e Jacobo Sutil
+        - time: 16:15 - 16:45
+          text: |
+            Conferencia
+            **Lorem ipsum**
+            José F. López-Aguilar (Oiko Design Office)
+        - time: 16:45 - 17:15
+          text: |
+            Conferencia
+            **Web3 e deseño centrado en usuario na era do *blockchain* e dos NFTs**
+            María Agra
+        - time: "17:15 - 17.30"
+          text: <span>Descanso</span>
+        - time: 17:30 - 18:00
+          text: |
+            Conferencia
+            **Thru Studio, deseño gráfico a través do movemento**
+            David Galar (Thru Studio)
+        - time: 18:00 - 19:00
+          text: |
+            **Mesa redonda**
+            <span>Modera:</span> Ipsum Lorem
+            <span>Participan:</span> María Agra, David Galar e José F. López-Aguilar
+        - time: 19:00 - 20:00
+          text: |
+            **Presentación de proxectos**
+            Estudantes das escolas de deseño de Galicia
+        - time: "20:00"
+          text: <span>Peche da xornada</span>
+    - title: Sábado 4
+      events:
+        - time: 10:00 - 13:30
+          text: |
+            Obradoiro
+            **Deseño de negocios para negocios de deseño**
+            Marta Falcón
+        - time: "15:30"
+          text: <span>Acreditación</span>
+        - time: 16:00 - 16:15
+          text: |
+            Presentación
+            **Mapa do deseño**
+            Patricia Argerey
+        - time: 16:15 - 16:45
+          text: |
+            Conferencia
+            **Lorem ipsum**
+            Anne Asensio
+        - time: 16:45 - 17:15
+          text: |
+            Conferencia
+            **Lorem ipsum**
+            Ángela Montagud (Clap Studio)
+        - time: "17:15 - 17.30"
+          text: <span>Descanso</span>
+        - time: 17:30 - 18:00
+          text: |
+            Conferencia
+            **Productividade en proxectos de deseño**
+            Marta Falcón
+        - time: 18:00 - 18:30
+          text: |
+            Conferencia
+            **A propósito de nada**
+            Isidro Ferrer
+        - time: 18:30 - 19:30
+          text: |
+            **Mesa redonda**
+            <span>Modera:</span> Ipsum Lorem
+            <span>Participan:</span> Anne Asensio, Ángela Montagud, Marta Falcón e Isidro Ferrer.
+        - time: 19:30 - 20:00
+          text: <span>Despedida e peche</span>
+        - time: "20:00"
+          text: |
+            Visita guiada á exposición
+            **A cociña de Barro**
+            Pepe Barro
+
