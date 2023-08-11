@@ -8,10 +8,12 @@ header:
     Santiago de Compostela<br>
     3-4.11.2023
 
-about: |
-  Celebramos a 5a edición do Foro bianual FEED para dar a coñecer e compartir as experiencias de profesionais do deseño, tanto galegos como de ámbito nacional, que buscan a diferenciación para chegar a un público cada vez máis exixente e con necesidades máis personalizadas. Proxectos de deseño gráfico, deseño de produto, deseño dixital, deseño de estratexia ou deseño de servizos, e a participación de estudantes de diferentes escolas de deseño de Galicia, completan un programa que busca a implicación e o intercambio de coñecemento en prol dunha mellor integración do deseño na sociedade actual.
+about:
+  title: Sobre o FEED
+  content: |
+    Celebramos a 5a edición do Foro bianual FEED para dar a coñecer e compartir as experiencias de profesionais do deseño, tanto galegos como de ámbito nacional, que buscan a diferenciación para chegar a un público cada vez máis exixente e con necesidades máis personalizadas. Proxectos de deseño gráfico, deseño de produto, deseño dixital, deseño de estratexia ou deseño de servizos, e a participación de estudantes de diferentes escolas de deseño de Galicia, completan un programa que busca a implicación e o intercambio de coñecemento en prol dunha mellor integración do deseño na sociedade actual.
 
-  Dous días con obradoiros formativos nas xornadas de mañá e conferencias e presentacións de proxectos nas xornadas de tarde, onde contaremos coa presenza de Artur Galocha, que amosará a evolución do seu traballo e impartirá o primeiro obradoiro de deseño editorial; a deseñadora de tipografías María Ramos, que fará un percorrido pola tipografía contemporánea e falará dos procesos creativos neste campo; e Carmen Lanza, experta en deseño de espazos interactivos en empresas de ámbito internacional. Pechamos o primeiro día coa presentación de proxectos fin de curso dos futuros deseñadores galegos.
+    Dous días con obradoiros formativos nas xornadas de mañá e conferencias e presentacións de proxectos nas xornadas de tarde, onde contaremos coa presenza de Artur Galocha, que amosará a evolución do seu traballo e impartirá o primeiro obradoiro de deseño editorial; a deseñadora de tipografías María Ramos, que fará un percorrido pola tipografía contemporánea e falará dos procesos creativos neste campo; e Carmen Lanza, experta en deseño de espazos interactivos en empresas de ámbito internacional. Pechamos o primeiro día coa presentación de proxectos fin de curso dos futuros deseñadores galegos.
 
 timetable:
   title: Programa
@@ -241,17 +243,18 @@ speakers:
           url: https://www.isidroferrer.com/
 
 location:
+  title: Como chegar
   conferences:
     title: Conferencias
     address: |
-      CGAC
-      Rúa Valle Inclán, 2
+      CGAC  
+      Rúa Valle Inclán, 2  
       Santiago de Compostela
   workshops:
     title: Obradoiros e Exposición
     address: |
-      Fundación DIDAC
-      Rúa Pérez Constanti, 12
+      Fundación DIDAC  
+      Rúa Pérez Constanti, 12  
       Santiago de Compostela
 
 logos:

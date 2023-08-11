@@ -30,9 +30,14 @@
     </div>
   </header>
 
-  {{ about |> md }}
+  <section class="about">
+    <h2>{{ about.title }}</h2>
+    <div>
+    {{ about.content |> md }}
+    </div>
+  </section>
 
-  <section>
+  <section class="timetable">
     <h2>{{ timetable.title }}</h2>
 
     {{ for day of timetable.days }}
@@ -48,55 +53,64 @@
     {{ /for }}
   </section>
 
-  <section>
-    <a href="{{ tickets.cta.url }}">{{ tickets.cta.text }}</a>
-    {{ tickets.text |> md }}
+  <section class="tickets">
+    <div>
+      <a href="{{ tickets.cta.url }}" class="button">{{ tickets.cta.text }}</a>
+      {{ tickets.text |> md }}
+    </div>
   </section>
 
-  <section>
+  <section class="speakers">
     <h2>{{ speakers.title }}</h2>
 
-    <ul>
+    <ul class="speakers-people">
     {{ for speaker of speakers.people }}
       <li>
         <article>
-          <h3>{{ speaker.title |> md(true) }}</h3>
           <img src="{{ speaker.img }}" alt="Retrato">
 
-          {{ for event of speaker.items }}
-          <section>
-            <h4>{{ event.title |> md(true) }}</h4>
-            {{ event.description |> md }}
+          <div class="speakers-person">
+            <h3>{{ speaker.title |> md(true) }}</h3>
 
-            <footer>
-              {{ event.footer |> md }}
-            </footer>
-          </section>
-          {{ /for }}
+            {{ for event of speaker.items }}
+            <section>
+              <h4>{{ event.title |> md(true) }}</h4>
+              {{ event.description |> md }}
+
+              <footer>
+                {{ event.footer |> md }}
+              </footer>
+            </section>
+            {{ /for }}
+          </div>
         </article>
       </li>
     {{ /for }}
     </ul>
   </section>
 
-  <section>
+  <section class="location">
     <div>
-      <h3>{{ location.conferences.title }}</h3>
-      <address>
-        {{ location.conferences.address |> md }}
-      </address>
-    </div>
-    <div>
-      <h3>{{ location.workshops.title }}</h3>
-      <address>
-        {{ location.workshops.address |> md }}
-      </address>
+      <h2>{{ location.title }}</h2>
+      <div>
+        <h3>{{ location.conferences.title }}</h3>
+        <address>
+          {{ location.conferences.address |> md }}
+        </address>
+      </div>
+      <div>
+        <h3>{{ location.workshops.title }}</h3>
+        <address>
+          {{ location.workshops.address |> md }}
+        </address>
+      </div>
     </div>
   </section>
 
-  <footer>
-    {{ for group of logos }}
+  <footer class="footer">
     <div>
+    {{ for group of logos }}
+      <div>
       <strong>{{ group.title }}</strong>
       <ul>
         {{ for logo of group.items }}
@@ -105,8 +119,9 @@
         </li>
         {{ /for }}
       </ul>
-    </div>
+      </div>
     {{ /for }}
+    </div>
   </footer>
 </body>
 </html>
