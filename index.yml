@@ -1,3 +1,5 @@
+layout: layout.vto
+
 title: FEED 2023 - Foro de deseño - DAG
 
 header:
@@ -31,7 +33,7 @@ timetable:
           text: |
             Conferencia
             **Lorem ipsum**
-            José F. López-Aguilar (Oiko Design Office)
+            José F López-Aguilar (Oiko Design Office)
         - time: 16:45 - 17:15
           text: |
             Conferencia
@@ -48,7 +50,7 @@ timetable:
           text: |
             **Mesa redonda**
             <span>Modera:</span> Ipsum Lorem
-            <span>Participan:</span> María Agra, David Galar e José F. López-Aguilar
+            <span>Participan:</span> María Agra, David Galar e José F López-Aguilar
         - time: 19:00 - 20:00
           text: |
             **Presentación de proxectos**
@@ -104,3 +106,84 @@ timetable:
             **A cociña de Barro**
             Pepe Barro
 
+tickets:
+  cta:
+    text: Mercar entradas
+    url: "#"
+  text: |
+    Descontos para persoas asociadas á DAG. Se queres asociarte [faino agora](https://dag.gal/gl/acerca-de/por-que-ser-da-dag/).
+
+    Tamén temos descontos para estudantes e membros da READ. Se eres unha persoa desempregada, infórmate en [info@dag.gal](mailto:info@dag.gal)
+
+speakers:
+  title: Relatoras
+  people:
+    - title: "**David Galar**"
+      items:
+        - title: |
+            <em>Obradoiro</em>: Deseño gráfico a través de *motion*
+          description: |
+            Desenvolveranse animacións que representen valores e ideas. O propósito do obradoiro é ser capaces de representar un comportamento audiovisual en base a un concepto creativo a partir dunha lista proposta. Mediante o uso de formas ou tipografía, crearase unha presentación onde se amose o comportamento audiovisual a partir de dous conceptos máximo. O resultado serán tres aplicacións animadas.
+          footer:
+            VENRES 3 NOVEMBRO | 10:00 h | DIDAC
+        - title: |
+            <em>Conferencia</em>: Thru Studio, deseño gráfico a través do movemento
+          description: |
+            A conferencia fará un repaso por algúns dos proxectos do estudio para explicar en base a case studies como se poden deseñar identidades gráficas a través da animación.
+          footer:
+            VENRES 3 NOVEMBRO | 17:30 h | CGAC
+    - title: |
+        **José F López-Aguilar**
+        Oiko Design Office
+      items:
+        - title: |
+            <em>Conferencia</em>: Ipsum lorem, ipsum lorem
+          description: |
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+          footer:
+            VENRES 3 NOVEMBRO | 16:15 h | CGAC
+    - title: |
+        **María Agra**
+      items:
+        - title: |
+            <em>Conferencia</em>: Web3 e deseño centrado en usuario na era do blockchain e dos NFTs
+          description: |
+            As tecnoloxías web3 como o *blockchain,* as aplicacións descentralizadas (dApps) e os tokens non funxibles (NFT) están a revolucionar a experiencia das persoas usuarias ao introducir novas formas de interactuar con Internet. A charla explorará o impacto de web3 nese sentido, incluíndo as oportunidades e retos que presentan estas tecnoloxías.
+          footer:
+            VENRES 3 NOVEMBRO | 16:45 h | CGAC
+    - title: |
+        **Estudantes das escolas de deseño de Galicia**
+      items:
+        - title: |
+            Presentación de proxectos
+          description: |
+            Info
+          footer:
+            VENRES 3 NOVEMBRO | 19:00 h | CGAC
+
+location:
+  conferences:
+    title: Conferencias
+    address: |
+      CGAC
+      Rúa Valle Inclán, 2
+      Santiago de Compostela
+  workshops:
+    title: Obradoiros e Exposición
+    address: |
+      Fundación DIDAC
+      Rúa Pérez Constanti, 12
+      Santiago de Compostela
+
+logos:
+  - title: Patrocina
+    items:
+      - alt: Axencia Galega das Industrias Culturais
+  - title: Colabora
+    items:
+      - alt: AC/E. Acción Cultural Española
+      - alt: CGAC
+      - alt: DIDAC
+      - alt: Axeitos & Co.
+      - alt: Gráficas Anduriña
+      - alt: Serilua

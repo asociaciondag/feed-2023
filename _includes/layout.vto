@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }}</title>
+</head>
+<body>
+  <header>
+    <h1>{{ header.title }}</h1>
+    {{ header.subtitle |> md }}
+  </header>
+
+  {{ about |> md }}
+
+  <section>
+    <h2>{{ timetable.title }}</h2>
+
+    {{ for day of timetable.days }}
+    <div>
+      <h3>{{ day.title }}</h3>
+      <dl>
+        {{ for event of day.events }}
+          <dt>{{ event.time }}</dt>
+          <dd>{{ event.text |> md }}</dt>
+        {{ /for }} 
+      </dl>
+    </div>
+    {{ /for }}
+  </section>
+
+  <section>
+    <a href="{{ tickets.cta.url }}">{{ tickets.cta.text }}</a>
+    {{ tickets.text |> md }}
+  </section>
+
+  <section>
+    <h2>{{ speakers.title }}</h2>
+
+    <ul>
+    {{ for speaker of speakers.people }}
+      <li>
+        <article>
+          <h3>{{ speaker.title |> md(true) }}</h3>
+
+          {{ for event of speaker.items }}
+          <section>
+            <h4>{{ event.title |> md(true) }}</h4>
+            {{ event.description |> md }}
+
+            <footer>
+              {{ event.footer |> md }}
+            </footer>
+          </section>
+          {{ /for }}
+        </article>
+      </li>
+    {{ /for }}
+    </ul>
+  </section>
+
+  <section>
+    <div>
+      <h3>{{ location.conferences.title }}</h3>
+      <address>
+        {{ location.conferences.address |> md }}
+      </address>
+    </div>
+    <div>
+      <h3>{{ location.workshops.title }}</h3>
+      <address>
+        {{ location.workshops.address |> md }}
+      </address>
+    </div>
+  </section>
+
+  <footer>
+    {{ for group of logos }}
+    <div>
+      <strong>{{ group.title }}</strong>
+      <ul>
+        {{ for logo of group.items }}
+        <li>{{ logo.alt }}</li>
+        {{ /for }}
+      </ul>
+    </div>
+    {{ /for }}
+  </footer>
+</body>
+</html>
