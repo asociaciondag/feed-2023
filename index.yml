@@ -3,7 +3,7 @@ layout: layout.vto
 title: FEED 2023 - Foro de deseño - DAG
 
 header:
-  title: Foro de deseño
+  title: Foro<br> de deseño
   subtitle: |
     Santiago de Compostela<br>
     3-4.11.2023
@@ -18,89 +18,89 @@ timetable:
   days:
     - title: Venres 3
       events:
-        - time: 10:00 - 13:30
+        - time: 10:00 - 13:30 h
           text: |
             Obradoiro
             **Deseño gráfico a través de *motion***
             David Galar (Thru Studio)
-        - time: "15:30"
+        - time: 15:30 h
           text: <span>Acreditación</span>
-        - time: 16:00 - 16:15
+        - time: 16:00 - 16:15 h
           text: |
             **Inauguración FEED 2023**
             Xóse García e Jacobo Sutil
-        - time: 16:15 - 16:45
+        - time: 16:15 - 16:45 h
           text: |
             Conferencia
             **Lorem ipsum**
             José F López-Aguilar (Oiko Design Office)
-        - time: 16:45 - 17:15
+        - time: 16:45 - 17:15 h
           text: |
             Conferencia
             **Web3 e deseño centrado en usuario na era do *blockchain* e dos NFTs**
             María Agra
-        - time: "17:15 - 17.30"
+        - time: 17:15 - 17.30 h
           text: <span>Descanso</span>
-        - time: 17:30 - 18:00
+        - time: 17:30 - 18:00 h
           text: |
             Conferencia
             **Thru Studio, deseño gráfico a través do movemento**
             David Galar (Thru Studio)
-        - time: 18:00 - 19:00
+        - time: 18:00 - 19:00 h
           text: |
             **Mesa redonda**
             <span>Modera:</span> Ipsum Lorem
             <span>Participan:</span> María Agra, David Galar e José F López-Aguilar
-        - time: 19:00 - 20:00
+        - time: 19:00 - 20:00 h
           text: |
             **Presentación de proxectos**
             Estudantes das escolas de deseño de Galicia
-        - time: "20:00"
+        - time: 20:00 h
           text: <span>Peche da xornada</span>
     - title: Sábado 4
       events:
-        - time: 10:00 - 13:30
+        - time: 10:00 - 13:30 h
           text: |
             Obradoiro
             **Deseño de negocios para negocios de deseño**
             Marta Falcón
-        - time: "15:30"
+        - time: 15:30 h
           text: <span>Acreditación</span>
-        - time: 16:00 - 16:15
+        - time: 16:00 - 16:15 h
           text: |
             Presentación
             **Mapa do deseño**
             Patricia Argerey
-        - time: 16:15 - 16:45
+        - time: 16:15 - 16:45 h
           text: |
             Conferencia
             **Lorem ipsum**
             Anne Asensio
-        - time: 16:45 - 17:15
+        - time: 16:45 - 17:15 h
           text: |
             Conferencia
             **Lorem ipsum**
             Ángela Montagud (Clap Studio)
-        - time: "17:15 - 17.30"
+        - time: 17:15 - 17.30 h
           text: <span>Descanso</span>
-        - time: 17:30 - 18:00
+        - time: 17:30 - 18:00 h
           text: |
             Conferencia
             **Productividade en proxectos de deseño**
             Marta Falcón
-        - time: 18:00 - 18:30
+        - time: 18:00 - 18:30 h
           text: |
             Conferencia
             **A propósito de nada**
             Isidro Ferrer
-        - time: 18:30 - 19:30
+        - time: 18:30 - 19:30 h
           text: |
             **Mesa redonda**
             <span>Modera:</span> Ipsum Lorem
             <span>Participan:</span> Anne Asensio, Ángela Montagud, Marta Falcón e Isidro Ferrer.
-        - time: 19:30 - 20:00
+        - time: 19:30 - 20:00 h
           text: <span>Despedida e peche</span>
-        - time: "20:00"
+        - time: 20:00 h
           text: |
             Visita guiada á exposición
             **A cociña de Barro**
@@ -118,7 +118,18 @@ tickets:
 speakers:
   title: Relatoras
   people:
-    - title: "**David Galar**"
+    - title: David Galar
+      img: /img/relatoras/david-galar.jpg
+      bio: |
+        Deseñador gráfico especializado en *Motion Design.* Graduado en Deseño gráfico e Máster en *Motion graphics* por IDEP Barcelona é tamén Diplomado en Marrketing e xestión comercial por ESIC e Skema Bussines School. Traballou no estudio Mucho onde desenvolveu principalmente proxectos de identidade. Tras tres anos traballando como freelance, en 2019 fundou o estudio Gimmewings, onde desenvolveu a súa actividade ata que xa en 2022 funda o estudio de Motion Design Thru.
+
+        Os traballos de Motion Design Thru comunican a través da animación, a interacción e o movemento como forma de explicar conceptos e de xerar historias. Experimentan superando os límites, as reglas e os dogmas do deseño. Entre os seus clientes están Visa, a National Gallery de Canadá, Ayuntamiento de Madrid, Festival Blanc! ou Kinema.
+      links:
+        - type: Web
+          url: https://thrumotion.com/
+        - type: Instagram
+          url: https://www.instagram.com/thru.motion/
+
       items:
         - title: |
             <em>Obradoiro</em>: Deseño gráfico a través de *motion*
@@ -132,9 +143,23 @@ speakers:
             A conferencia fará un repaso por algúns dos proxectos do estudio para explicar en base a case studies como se poden deseñar identidades gráficas a través da animación.
           footer:
             VENRES 3 NOVEMBRO | 17:30 h | CGAC
-    - title: |
-        **José F López-Aguilar**
-        Oiko Design Office
+    - title: José F López-Aguilar
+      img: /img/relatoras/jose-f-lopez-aguilar.jpg
+      bio: |
+        É socio-fundador e director de investigación e deseño de OiKo Design Office, consultora de deseño especializada en economía circular e desenvolvemento de materiais reciclados, desde onde traballa con marcas como Roca, Dentaid, Marset ou Escofet. Polo seu traballo foi recoñecido con prestixiosos premios internacionais como o Red Dot, o German Design Award ou o Green Product Award.
+
+        É Doutor en Enxeñaría de Materiais pola UPC, Deseñador Industrial pola Escola Elisava e Máster en Ecoloxía Industrial pola UAB. Como científico é investigador de Elisabva Research (UVic-UCC) e ten publicado en revistas de primero nivel (Q1). Ademais, é recoñecido internacionalmente polo seu traballo no campo da economía circular dos plásticos sendo responsable do primero Material Flow completo dos residuos plásticos procedentes de envase en España.
+
+        Ademais, de ser profesor da Escola Elisava e responsable da sección «Cuaderno eco» da revista *Arquitectura y Diseño* de RBA desde 2014, publica libros e capítulos de libro na área dos materiais e o deseño.
+      links:
+        - type: Web
+          url: https://www.oikodesignoffice.com/
+        - type: Instagram
+          url: https://www.instagram.com/oikodesignoffice/
+        - type: Facebook
+          url: https://www.facebook.com/oikodesignoffice/
+        - type: Linkedin
+          url: https://www.linkedin.com/company/oiko-design-office/
       items:
         - title: |
             <em>Conferencia</em>: Ipsum lorem, ipsum lorem
@@ -142,8 +167,18 @@ speakers:
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
           footer:
             VENRES 3 NOVEMBRO | 16:15 h | CGAC
-    - title: |
-        **María Agra**
+    - title: María Agra
+      bio: |
+        Deseñadora de produto dixital cunha sólida formación en arte e tecnoloxía. Comezou a súa carreira profesional en deseño editorial e expositivo en Galicia antes de trasladarse a Londres para traballar en axencias como Keepthinking, enfocada no deseño de *software* para o sector cultural e patrimonial, e *startups* como Verisart, pioneira na utilización da tecnoloxía *blockchain* no mercado da arte. Actualmente traballa en Trilitech, creando produtos e ferramentas orientados ás persoas para la *blockchain* Tezos. É unha apaixoada das posibilidades da tecnoloxía web3 e da resolución dos desafíos que presenta ás usuarias.
+      links:
+        - type: Web
+          url: http://maria-agra.com/
+        - type: Linkedin
+          url: https://www.linkedin.com/in/mariaagra/
+        - type: Twitter
+          url: https://twitter.com/agra_mar1a
+
+      img: /img/relatoras/maria-agra.jpg
       items:
         - title: |
             <em>Conferencia</em>: Web3 e deseño centrado en usuario na era do blockchain e dos NFTs
@@ -151,15 +186,59 @@ speakers:
             As tecnoloxías web3 como o *blockchain,* as aplicacións descentralizadas (dApps) e os tokens non funxibles (NFT) están a revolucionar a experiencia das persoas usuarias ao introducir novas formas de interactuar con Internet. A charla explorará o impacto de web3 nese sentido, incluíndo as oportunidades e retos que presentan estas tecnoloxías.
           footer:
             VENRES 3 NOVEMBRO | 16:45 h | CGAC
-    - title: |
-        **Estudantes das escolas de deseño de Galicia**
-      items:
-        - title: |
-            Presentación de proxectos
-          description: |
-            Info
-          footer:
-            VENRES 3 NOVEMBRO | 19:00 h | CGAC
+    - title: Marta Falcón
+      bio: |
+        Deseñadora de servizos e emprendedora, especialista en ferramentas de deseño centradas nas persoas, axuda ás empresas a resolver os seus retos e crear servizos de forma innovadora. Formada en Enxeñaría Técnica de Deseño Industrial na UDC, realizou tamén o Máster en Deseño de Produto en Elisava de Barcelona e o Executive Course de Diseño de Servicios en H2i de Madrid. A súa traxectoria profesional iniciouse no sector do produto traballando en diferentes empresas, desde pequenas axencias ata corporacións moi grandes en España, Italia e Reino Unido.
+
+        Desde 2012 traballa como consultora externa e formou parte de proxectos nos setores público, bancario, farmacéutico, enerxético, automoción ou comunicación. Ademais de ser *speaker* en eventos de carácter empresarial ou de deseño de novas metodoloxías, imparte formación en centros como IED de Barcelona e Madrid, Uxer School ou The Hero Camp.
+      links:
+        - type: Web
+          url: https://martafalcon.com/
+        - type: Linkedin
+          url: https://www.linkedin.com/in/marta-falc%C3%B3n/
+        - type: Twitter
+          url: https://twitter.com/soymartafalcon
+        - type: Instagram
+          url: https://www.instagram.com/soymartafalcon/
+
+      img: /img/relatoras/marta-falcon.jpg
+    - title: Anne Asensio
+      bio: |
+        Tras estudar na Escola Nacional Superior de Artes Aplicadas e Oficios Artísticos (ENSAAMA) interésase no mobiliario, así como en obxectos mecánicos, e realiza unha pasantía en Renault onde traballaría despois de estudar no College for Creative Studies de Detroit, centro de arte que se focaliza principalmente no deseño de automóviles. A partir de 1997, é responsable do deseño de vehículos pequenos e medianos. Ese mismo ano, é nomeada «muller do ano da industria automotriz» pola revista profesional estadounidense Automotive News. En 2000 firma por General Motors e segue a súa traxectoria en Europa, onde convértese en directora executiva de deseño avanzado. 
+
+        Uniuse á Dassault Systèmes en 2007 como vicepresidenta de experiencia de deseño. É condecorada coa orden do mérito francés en 2016, membro da Xunta Directiva da APCI, Asociación para a Promoción da Creación Industrial de Francia, e recentemente pasou formar parte da Organización Mundial do Deseño.
+      links:
+        - type: Linkedin
+          url: https://www.linkedin.com/in/anne-asensio-2043627/
+        - type: Twitter
+          url: https://twitter.com/AnneAsensio
+
+      img: /img/relatoras/anne-asensio.jpg
+    - title: Àngela Monteagud
+      bio: |
+        O seu perfil abrangue diferentes competencias, desde o deseño de interiores ata o *marketing* e a comunicación. Estudiou Arquitectura Técnica en Valencia e posteriormente completou a súa formación cun mestrado en Marketing e Comunicación. Despois dun ano traballando en Alemaña, en 2017 regresou a Valencia e fundou Clap Studio xunto ao seu socio Jordi Iranzo. 
+
+        A filosofía do estudio ríxese por tres palabras clave: sinxeleza, elegancia e xogo. Realizaron proxectos en grandes cidades como Hong Kong, Sao Paulo, Barcelona e Minsk. Clap foi nomeada unha das 100 axencias máis creativas de España pola revista FORBES España, gañou un German Design Awards 2020, tamén un FRAME Awards 2019 e foi recoñecida na *longlist* dos Dezeen Awards 2019 como Estudio de Deseño Interior Emexente.
+      links:
+        - type: Web
+          url: https://weareclap.com/
+        - type: Linkedin
+          url: https://es.linkedin.com/company/weareclapstudio
+        - type: Instagram
+          url: https://www.instagram.com/weareclapstudio/
+
+      img: /img/relatoras/anne-asensio.jpg
+
+    - title: Isidro Ferrer
+      bio: |
+        Ducias de libros, centos de carteis, delicados obxectos, enormes fachadas, curtas de animación, esculturas, téxtiles, imaxes de marca, lámpadas. Calquera soporte, técnica, canle de comunicación, lle serve a Isidro Ferrer para expresar con imaxes a súa paixón polo teatro da vida. Premio Nacional de Deseño 2002, Premio Nacional de Ilustración 2006, membro da AGI (Alliance Graphique International), viaxeiro infatigable, abrangue coa súa obra e a súa palabra unha vasta xeografía física e emocional.
+        
+        Ilustrador e deseñador gráfico de longa traxectoria profesional traballou con clientes como o Centro Dramático Nacional, o Governo de Aragón, a Universidad Complutense de Madrid, CentroCentro, Le Petit Teatre de Suíza ou Camper.
+
+      img: /img/relatoras/isidro-ferrer.jpg
+      links:
+        - type: Web
+          url: https://www.isidroferrer.com/
 
 location:
   conferences:
@@ -176,14 +255,25 @@ location:
       Santiago de Compostela
 
 logos:
+  - title: Organiza
+    items:
+      - alt: DAG
+        img: /img/logos/dag.svg
   - title: Patrocina
     items:
-      - alt: Axencia Galega das Industrias Culturais
+      - alt: Agadic
+        img: /img/logos/agadic.svg
   - title: Colabora
     items:
-      - alt: AC/E. Acción Cultural Española
+      - alt: AC/Española
+        img: /img/logos/ace.svg
       - alt: CGAC
-      - alt: DIDAC
-      - alt: Axeitos & Co.
-      - alt: Gráficas Anduriña
+        img: /img/logos/cgac.svg
+      - alt: Didac
+        img: /img/logos/didac.svg
+      - alt: Axeitos
+        img: /img/logos/axeitos.svg
+      - alt: Anduriña
+        img: /img/logos/andurina.svg
       - alt: Serilua
+        img: /img/logos/serilua.svg

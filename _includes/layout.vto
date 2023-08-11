@@ -1,14 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="gl">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ title }}</title>
+  <link rel="stylesheet" href="/styles.css">
+  <meta name="author" content="DAG - Asociación Galega de Deseño">
 </head>
 <body>
-  <header>
-    <h1>{{ header.title }}</h1>
-    {{ header.subtitle |> md }}
+  <!-- HEADER -->
+  <nav class="page-header wrapper" id="main-header">
+      <a href="https://dag.gal" class="page-logo" title="Asociación Galega de Deseño">
+          <img src="/img/dag.svg" inline>
+      </a>
+  </nav>
+  <!-- /HEADER -->
+
+  <header class="header">
+    <div class="logo-feed is-square">
+      <img src="/img/feed/f.svg">
+      <img src="/img/feed/e.svg">
+      <img src="/img/feed/e2.svg">
+      <img src="/img/feed/d.svg">
+    </div>
+
+    <div class="header-content">
+      <h1>{{ header.title }}</h1>
+      {{ header.subtitle |> md }}
+    </div>
   </header>
 
   {{ about |> md }}
@@ -42,6 +61,7 @@
       <li>
         <article>
           <h3>{{ speaker.title |> md(true) }}</h3>
+          <img src="{{ speaker.img }}" alt="Retrato">
 
           {{ for event of speaker.items }}
           <section>
@@ -80,7 +100,9 @@
       <strong>{{ group.title }}</strong>
       <ul>
         {{ for logo of group.items }}
-        <li>{{ logo.alt }}</li>
+        <li>
+          <img src="{{ logo.img }}" alt="{{ logo.alt }}">
+        </li>
         {{ /for }}
       </ul>
     </div>
