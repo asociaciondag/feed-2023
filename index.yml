@@ -134,13 +134,13 @@ speakers:
 
       items:
         - title: |
-            <em>Obradoiro</em>: Deseño gráfico a través de *motion*
+            **Obradoiro**: Deseño gráfico a través de *motion*
           description: |
             Desenvolveranse animacións que representen valores e ideas. O propósito do obradoiro é ser capaces de representar un comportamento audiovisual en base a un concepto creativo a partir dunha lista proposta. Mediante o uso de formas ou tipografía, crearase unha presentación onde se amose o comportamento audiovisual a partir de dous conceptos máximo. O resultado serán tres aplicacións animadas.
           footer:
             VENRES 3 NOVEMBRO | 10:00 h | DIDAC
         - title: |
-            <em>Conferencia</em>: Thru Studio, deseño gráfico a través do movemento
+            **Conferencia**: Thru Studio, deseño gráfico a través do movemento
           description: |
             A conferencia fará un repaso por algúns dos proxectos do estudio para explicar en base a case studies como se poden deseñar identidades gráficas a través da animación.
           footer:
@@ -164,7 +164,7 @@ speakers:
           url: https://www.linkedin.com/company/oiko-design-office/
       items:
         - title: |
-            <em>Conferencia</em>: Ipsum lorem, ipsum lorem
+            **Conferencia**: Ipsum lorem, ipsum lorem
           description: |
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
           footer:
@@ -183,7 +183,7 @@ speakers:
       img: /img/relatoras/maria-agra.jpg
       items:
         - title: |
-            <em>Conferencia</em>: Web3 e deseño centrado en usuario na era do blockchain e dos NFTs
+            **Conferencia**: Web3 e deseño centrado en usuario na era do blockchain e dos NFTs
           description: |
             As tecnoloxías web3 como o *blockchain,* as aplicacións descentralizadas (dApps) e os tokens non funxibles (NFT) están a revolucionar a experiencia das persoas usuarias ao introducir novas formas de interactuar con Internet. A charla explorará o impacto de web3 nese sentido, incluíndo as oportunidades e retos que presentan estas tecnoloxías.
           footer:

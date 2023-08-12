@@ -70,16 +70,38 @@
           <img src="{{ speaker.img }}" alt="Retrato">
 
           <div class="speakers-person">
-            <h3>{{ speaker.title |> md(true) }}</h3>
+            <h3>
+              {{ speaker.title |> md(true) }}
+              &nbsp;&nbsp;
+              <button class="speakers-bio-link" onclick="this.parentElement.nextElementSibling.showModal()">
+                Ler biografía
+              </button>
+            </h3>
+
+            <dialog class="speakers-dialog">
+              <button class="speakers-dialog-close" onclick="this.parentElement.close()">Close</button>
+
+              <div class="speakers-bio">
+                {{ speaker.bio |> md }}
+              </div>
+
+              <ul class="speakers-links">
+              {{ for link of speaker.links }}
+                <li><a href="{{ link.url }}" target="_blank">{{ link.type }}</a></li>
+              {{ /for }}
+              </ul>
+            </dialog>
+
 
             {{ for event of speaker.items }}
-            <section>
+            <section class="speakers-event">
               <h4>{{ event.title |> md(true) }}</h4>
-              {{ event.description |> md }}
-
               <footer>
                 {{ event.footer |> md }}
               </footer>
+
+              {{ event.description |> md }}
+
             </section>
             {{ /for }}
           </div>
