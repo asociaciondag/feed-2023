@@ -132,7 +132,7 @@
   <footer class="footer">
     <div>
     {{ for group of logos }}
-      <div>
+      <div class="{{ group.title }}">
       <strong>{{ group.title }}</strong>
       <ul>
         {{ for logo of group.items }}
