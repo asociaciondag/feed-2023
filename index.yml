@@ -2,6 +2,11 @@ layout: layout.vto
 
 title: FEED 2023 - Foro de deseño - DAG
 
+metas:
+  title: FEED 2023 - Foro de deseño
+  description: Organizado pola DAG - Asociación Galega de Deseño
+  image: /img/social.jpg
+
 header:
   title: Foro<br> de deseño
   subtitle: |
