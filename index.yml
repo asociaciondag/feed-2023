@@ -246,37 +246,46 @@ location:
   title: Como chegar
   conferences:
     title: Conferencias
+    map: https://goo.gl/maps/SXHg73qnQ4ePgVyq5
     address: |
       CGAC  
       Rúa Valle Inclán, 2  
       Santiago de Compostela
   workshops:
     title: Obradoiros e Exposición
+    map: https://goo.gl/maps/oT1XHtzs9Ny1rF9b8
     address: |
       Fundación DIDAC  
       Rúa Pérez Constanti, 12  
       Santiago de Compostela
 
 logos:
-  - title: Organiza
-    items:
-      - alt: DAG
-        img: /img/logos/dag.svg
+  # - title: Organiza
+  #   items:
+  #     - alt: DAG
+  #       img: /img/logos/dag.svg
   - title: Patrocina
     items:
       - alt: Agadic
-        img: /img/logos/agadic.png
+        img: /img/logos/agadic.svg
+        url: https://industriasculturais.xunta.gal/
   - title: Colabora
     items:
       - alt: AC/Española
         img: /img/logos/ace.svg
+        url: https://www.accioncultural.es/
       - alt: CGAC
         img: /img/logos/cgac.svg
+        url: https://cgac.xunta.gal/
       - alt: Didac
         img: /img/logos/didac.svg
+        url: http://didac.gal/
       - alt: Axeitos
         img: /img/logos/axeitos.svg
+        url: https://axeitos.com
       - alt: Anduriña
         img: /img/logos/andurina.svg
+        url: https://www.andurina.com/
       - alt: Serilua
         img: /img/logos/serilua.svg
+        url: https://www.serilua.com

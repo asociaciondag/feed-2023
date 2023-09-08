@@ -13,15 +13,30 @@
       <a href="https://dag.gal" class="page-logo" title="Asociación Galega de Deseño">
           <img src="/img/dag.svg" inline>
       </a>
+
+      <ul class="menu">
+        <li><a href="#relatoras">Relatoras</a></li>
+        <li><a href="#programa">Programa</a></li>
+        <li><a href="#entradas">Entradas</a></li>
+      </ul>
+
+      <div class="share">
+        <a href="https://twitter.com/asociaciondag">
+          <img src="/img/x.svg" inline>
+        </a>
+        <a href="https://www.instagram.com/asociaciondag/">
+          <img src="/img/instagram.svg" inline>
+        </a>
+      </div>
   </nav>
   <!-- /HEADER -->
 
   <header class="header">
-    <div class="logo-feed is-square">
-      <img src="/img/feed/f.svg">
-      <img src="/img/feed/e.svg">
-      <img src="/img/feed/e2.svg">
-      <img src="/img/feed/d.svg">
+    <div class="logo-feed">
+      <picture>
+        <source srcset="/img/feed/rectangular.svg" media="(max-width: 599px)">
+        <img src="/img/feed/cadrado.svg">
+      </picture>
     </div>
 
     <div class="header-content">
@@ -37,7 +52,7 @@
     </div>
   </section>
 
-  <section class="timetable">
+  <section class="timetable" id="programa">
     <h2>{{ timetable.title }}</h2>
 
     {{ for day of timetable.days }}
@@ -53,14 +68,14 @@
     {{ /for }}
   </section>
 
-  <section class="tickets">
+  <section class="tickets" id="entradas">
     <div>
       <a href="{{ tickets.cta.url }}" class="button">{{ tickets.cta.text }}</a>
       {{ tickets.text |> md }}
     </div>
   </section>
 
-  <section class="speakers">
+  <section class="speakers" id="relatoras">
     <h2>{{ speakers.title }}</h2>
 
     <ul class="speakers-people">
@@ -119,12 +134,16 @@
         <address>
           {{ location.conferences.address |> md }}
         </address>
+
+        <a href="{{ location.conferences.map }}" class="location-map">{{ "Ver mapa >" |> escape}}</a>
       </div>
       <div>
         <h3>{{ location.workshops.title }}</h3>
         <address>
           {{ location.workshops.address |> md }}
         </address>
+
+        <a href="{{ location.conferences.map }}" target="_blank" class="location-map">{{ "Ver mapa >" |> escape}}</a>
       </div>
     </div>
   </section>
@@ -137,7 +156,9 @@
       <ul>
         {{ for logo of group.items }}
         <li>
-          <img src="{{ logo.img }}" alt="{{ logo.alt }}">
+          <a href="{{ logo.url }}" title="{{ logo.alt }}">
+            <img src="{{ logo.img }}" alt="{{ logo.alt }}">
+          </a>
         </li>
         {{ /for }}
       </ul>
