@@ -16,9 +16,13 @@ header:
 about:
   title: Sobre o FEED
   content: |
-    Celebramos a 5a edición do Foro bianual FEED para dar a coñecer e compartir as experiencias de profesionais do deseño, tanto galegos como de ámbito nacional, que buscan a diferenciación para chegar a un público cada vez máis exixente e con necesidades máis personalizadas. Proxectos de deseño gráfico, deseño de produto, deseño dixital, deseño de estratexia ou deseño de servizos, e a participación de estudantes de diferentes escolas de deseño de Galicia, completan un programa que busca a implicación e o intercambio de coñecemento en prol dunha mellor integración do deseño na sociedade actual.
+    O FEED é un evento bianual que organiza a DAG Asociación Galega de Deseño desde o 2013. O punto de partida destes encontros foi o FEET, un congreso orientado á edición e á tipografía que tivo lugar en Pontevedra no 2010 e que puxo sobre a mesa a importancia das reunións de profesionais do deseño en Galicia. 
 
-    Dous días con obradoiros formativos nas xornadas de mañá e conferencias e presentacións de proxectos nas xornadas de tarde, onde contaremos coa presenza de Artur Galocha, que amosará a evolución do seu traballo e impartirá o primeiro obradoiro de deseño editorial; a deseñadora de tipografías María Ramos, que fará un percorrido pola tipografía contemporánea e falará dos procesos creativos neste campo; e Carmen Lanza, experta en deseño de espazos interactivos en empresas de ámbito internacional. Pechamos o primeiro día coa presentación de proxectos fin de curso dos futuros deseñadores galegos.
+    O obxectivo principal do FEED é o de establecer un espazo para profesionais e estudantes de deseño onde compartir experiencias e propiciar a reflexión e o debate dentro da nosa profesión, así como satisfacer a demanda de formación continua. Hoxe é xa un evento de referencia no noroeste da península para todas as persoas e axentes económicos e culturais con interese nos valores innovadores do deseño.
+
+    Este ano retomamos o programa de dous días completos con seminarios de formación, conferencias, mesas redondas e presentacións de proxectos. Os dous obradoiros están dirixidos por equipos de deseño especializados en *motion graphics* e deseño de procesos produtivos. As sete conferencias están protagonizadas por profesionais de deseño gráfico e editorial, deseño dixital, deseño de servizos, deseño de produto e industrial, deseño de experiencias e de espazos. Tamén contamos con presentacións de proxectos de estudantes de deseño e dúas mesas redondas participadas polos e polas conferenciantes. 
+
+    O programa complétase coa visita á exposición «a cociña de Barro» na Fundación DIDAC, impulsada polo socio Pepe Barro no seu 50 aniversario na profesión e toda unha vida adicada ao deseño e á investigación. 
 
 timetable:
   title: Programa
@@ -39,8 +43,8 @@ timetable:
         - time: 16:15 - 16:45 h
           text: |
             Conferencia
-            **Lorem ipsum**
-            José F López-Aguilar (Oiko Design Office)
+            **Design From Recycling**
+            José F. López Aguilar (Oiko Design Office)
         - time: 16:45 - 17:15 h
           text: |
             Conferencia
@@ -56,8 +60,8 @@ timetable:
         - time: 18:00 - 19:00 h
           text: |
             **Mesa redonda**
-            <span>Modera:</span> Ipsum Lorem
-            <span>Participan:</span> María Agra, David Galar e José F López-Aguilar
+            <span>Modera:</span> Ipsum Lorem<br>
+            <span>Participan:</span> María Agra, David Galar e José F. López Aguilar
         - time: 19:00 - 20:00 h
           text: |
             **Presentación de proxectos**
@@ -73,50 +77,49 @@ timetable:
             Marta Falcón
         - time: 15:30 h
           text: <span>Acreditación</span>
-        - time: 16:00 - 16:15 h
+        - time: 16:00 - 16:20 h
           text: |
-            Presentación
-            **Mapa do deseño**
-            Patricia Argerey
-        - time: 16:15 - 16:45 h
+            David Barro, director da fundación DIDAC e comisario da exposición «Galicia procesos y formas» en Porto
+        - time: 16:20 - 16:50 h
           text: |
             Conferencia
-            **Lorem ipsum**
-            Anne Asensio
-        - time: 16:45 - 17:15 h
+            **Outros puntos de vista sobre o deseño**
+            Noemí Cortizas
+        - time: 16:50 - 17:20 h
           text: |
             Conferencia
-            **Lorem ipsum**
-            Ángela Montagud (Clap Studio)
-        - time: 17:15 - 17.30 h
+            **Creando local, comunicando global**
+            Àngela Montagud (Clap Studio)
+        - time: 17:20 - 17.40 h
           text: <span>Descanso</span>
-        - time: 17:30 - 18:00 h
+        - time: 17:40 - 18:10 h
           text: |
             Conferencia
             **Productividade en proxectos de deseño**
             Marta Falcón
-        - time: 18:00 - 18:30 h
+        - time: 18:10 - 18:40 h
           text: |
             Conferencia
             **A propósito de nada**
             Isidro Ferrer
-        - time: 18:30 - 19:30 h
+        - time: 18:40 - 19:30 h
           text: |
             **Mesa redonda**
-            <span>Modera:</span> Ipsum Lorem
-            <span>Participan:</span> Anne Asensio, Ángela Montagud, Marta Falcón e Isidro Ferrer.
+            <span>Modera:</span> Ipsum Lorem<br>
+            <span>Participan:</span> Noemí Cortizas, Àngela Montagud, Marta Falcón e Isidro Ferrer.
         - time: 19:30 - 20:00 h
           text: <span>Despedida e peche</span>
         - time: 20:00 h
           text: |
             Visita guiada á exposición
-            **A cociña de Barro**
-            Pepe Barro
+            «A cociña de Barro» (reservado a asociadas e invitadas FEED)<br>
+            Pepe Barro<br>
+            Fundación Didac
 
 tickets:
   cta:
     text: Mercar entradas
-    url: "#"
+    url: "https://www.eventbrite.es/e/entradas-feed-2023-713819953697"
   text: |
     Descontos para persoas asociadas á DAG. Se queres asociarte [faino agora](https://dag.gal/gl/acerca-de/por-que-ser-da-dag/).
 
@@ -141,7 +144,9 @@ speakers:
         - title: |
             **Obradoiro**: Deseño gráfico a través de *motion*
           description: |
-            Desenvolveranse animacións que representen valores e ideas. O propósito do obradoiro é ser capaces de representar un comportamento audiovisual en base a un concepto creativo a partir dunha lista proposta. Mediante o uso de formas ou tipografía, crearase unha presentación onde se amose o comportamento audiovisual a partir de dous conceptos máximo. O resultado serán tres aplicacións animadas.
+            Mediante formas e tipografía crearemos unha presentación cun comportamento audiovisual sobre un máximo de dous conceptos creativos. O resultado serán tres aplicacións animadas.
+
+            **Necesario:** Un ordenador portátil con After Effects e Media Encoder instalado. Levar rato (non so trackpad). Coñecementos en deseño gráfico, mais non é preciso ter altos coñecementos de animación. 
           footer:
             VENRES 3 NOVEMBRO | 10:00 h | DIDAC
         - title: |
@@ -150,7 +155,7 @@ speakers:
             A conferencia fará un repaso por algúns dos proxectos do estudio para explicar en base a case studies como se poden deseñar identidades gráficas a través da animación.
           footer:
             VENRES 3 NOVEMBRO | 17:30 h | CGAC
-    - title: José F López-Aguilar
+    - title: José F. López Aguilar
       img: /img/relatoras/jose-f-lopez-aguilar.jpg
       bio: |
         É socio-fundador e director de investigación e deseño de OiKo Design Office, consultora de deseño especializada en economía circular e desenvolvemento de materiais reciclados, desde onde traballa con marcas como Roca, Dentaid, Marset ou Escofet. Polo seu traballo foi recoñecido con prestixiosos premios internacionais como o Red Dot, o German Design Award ou o Green Product Award.
@@ -169,9 +174,9 @@ speakers:
           url: https://www.linkedin.com/company/oiko-design-office/
       items:
         - title: |
-            **Conferencia**: Ipsum lorem, ipsum lorem
+            **Conferencia**: Design From Recycling
           description: |
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+            A través de varios casos prácticos desenvolvidos no estudio, compartiremos a metodoloxía de OiKo para facer reciclables os materiais, aportando valor e solucións de deseño desde a comprensión dos procesos de fabricación e da percepción da persoa usuaria.
           footer:
             VENRES 3 NOVEMBRO | 16:15 h | CGAC
     - title: María Agra
@@ -193,6 +198,22 @@ speakers:
             As tecnoloxías web3 como o *blockchain,* as aplicacións descentralizadas (dApps) e os tokens non funxibles (NFT) están a revolucionar a experiencia das persoas usuarias ao introducir novas formas de interactuar con Internet. A charla explorará o impacto de web3 nese sentido, incluíndo as oportunidades e retos que presentan estas tecnoloxías.
           footer:
             VENRES 3 NOVEMBRO | 16:45 h | CGAC
+    - title: Estudantes de escolas de deseño galegas
+      img: /img/relatoras/alumnos.jpg
+      items:
+        - title: |
+            Exposición de traballos
+          description: |
+            Presentación de proxectos realizados por estudantes de distintas escolas de deseño galegas
+
+            - **Belén Cordero,** EASD Ramón Falcón
+            - **Diana Marotte,** Mestrado de Dirección de Arte da UVigo
+            - **Estela Otero,** EASD Antonio Faílde
+            - **Lucía Vázquez,** EASD Pablo Picasso
+            - **Martín García,** EASD Mestre Mateo
+            - **Sara Elexpe,** Escola Superior Marcelo Macías
+          footer:
+            VENRES 3 NOVEMBRO | 19:00 h | CGAC
     - title: Marta Falcón
       bio: |
         Deseñadora de servizos e emprendedora, especialista en ferramentas de deseño centradas nas persoas, axuda ás empresas a resolver os seus retos e crear servizos de forma innovadora. Formada en Enxeñaría Técnica de Deseño Industrial na UDC, realizou tamén o Máster en Deseño de Produto en Elisava de Barcelona e o Executive Course de Diseño de Servicios en H2i de Madrid. A súa traxectoria profesional iniciouse no sector do produto traballando en diferentes empresas, desde pequenas axencias ata corporacións moi grandes en España, Italia e Reino Unido.
@@ -209,19 +230,45 @@ speakers:
           url: https://www.instagram.com/soymartafalcon/
 
       img: /img/relatoras/marta-falcon.jpg
-    - title: Anne Asensio
+      items:
+        - title: |
+            **Obradoiro**: Deseño de negocios para negocios de deseño
+          description: |
+            As persoas asistentes aprenderán sobre *Business Design* e poñerano en práctica con estudos de deseño e profesionais freelance. Haberá una parte teórica para dar contexto, e entender a metodoloxía, e logo traballarase en deseñar modelos de negocio atractivos e estratéxicos con técnicas de *Business Design.*
+          footer:
+            SÁBADO 4 NOVEMBRO | 10:00 h | CGAC
+        - title: |
+            **Conferencia**: Productividade en proxectos de deseño
+          description: |
+            Dásenos ben deseñar pero… xestionar proxectos? Somos realmente produtivos/as? Estamos aliñados á estratexia de negocio? Cando falamos de produtividade pensamos en facer máis en menos tempo, en lugar de traballar de forma intelixente. Cando falamos de visión, estratexia e método, esquecémonos de que tamén se deseña.
+
+            Nesta charla Marta Falcón vai falar de pautas accionables sobre *Business Design,* para funcionar coa mellor estratexia e sacar adiante os nosos proxectos cunha produtividade sa.
+          footer:
+            SÁBADO 4 NOVEMBRO | 17:40 h | CGAC
+    - title: Noemí Cortizas
       bio: |
-        Tras estudar na Escola Nacional Superior de Artes Aplicadas e Oficios Artísticos (ENSAAMA) interésase no mobiliario, así como en obxectos mecánicos, e realiza unha pasantía en Renault onde traballaría despois de estudar no College for Creative Studies de Detroit, centro de arte que se focaliza principalmente no deseño de automóviles. A partir de 1997, é responsable do deseño de vehículos pequenos e medianos. Ese mismo ano, é nomeada «muller do ano da industria automotriz» pola revista profesional estadounidense Automotive News. En 2000 firma por General Motors e segue a súa traxectoria en Europa, onde convértese en directora executiva de deseño avanzado. 
+        Enxeñeira e deseñadora industrial con máis dunha década de experiencia en proxectos internacionais, enfocou a súa carreira no deseño de CMF (Cores, Materiais, Acabados de superficies) e na sustentabilidade. Afincada en Francia, ao longo da súa carreira tivo oportunidade de traballar para marcas e proxectos de vangarda dentro de sectores como o da cosmética de luxo, bens de consumo, mobiliario e transporte. Así, traballou con Airbus, Swatch Group, Estée Lauder, MAC, Auchan, La Mer, DS Automóviles ou Adolfo Domínguez. 
 
-        Uniuse á Dassault Systèmes en 2007 como vicepresidenta de experiencia de deseño. É condecorada coa orden do mérito francés en 2016, membro da Xunta Directiva da APCI, Asociación para a Promoción da Creación Industrial de Francia, e recentemente pasou formar parte da Organización Mundial do Deseño.
+        Actualmente, como deseñadora independente en Ydemaker, emprega os seus coñecementos técnicos e as súas habilidades estéticas para colaborar con equipos de márketing, técnicos e de fabricación, axudando ás marcas a comprender as tendencias do mercado, formulando unha estratexia CMF ou traballando no desenvolvemento de produtos chave en man. 
+
+        En 2022, o seu deseño Vivaluz, foi seleccionado para o programa europeo CIRCOAX de moda circular. Ademais, é profesora a tempo parcial de Deseño Industrial en Madeira na Escola Superior das tecnoloxías da madeira e directora de proxectos Fin de Grao e Fin de Máster de Sustentabilidade e Deseño en ICAI.
       links:
-        - type: Linkedin
-          url: https://www.linkedin.com/in/anne-asensio-2043627/
+        - type: Web
+          url: https://www.ydemaker.com
+        - type: Instagram
+          url: https://www.instagram.com/ydemaker_mih/ 
         - type: Twitter
-          url: https://twitter.com/AnneAsensio
+          url: https://www.linkedin.com/in/noemicortizas
 
-      img: /img/relatoras/anne-asensio.jpg
-    - title: Àngela Monteagud
+      img: /img/relatoras/noemi-cortizas.jpg
+      items:
+        - title: |
+            **Conferencia**: Outros puntos de vista sobre o deseño
+          description: |
+            Actualmente, discútese moito sobre o deseño sostible. Mais, que ferramentas teñen os deseñadores e as deseñadoras ao seu dispor para realizaren o seu traballo? É certo todo o que se amosa nas redes sobre as virtudes dos novos materiais? Noemí abordará a temática da neolinguaxe, como pode afectarnos e como reducir o seu impacto negativo. Ademais, compartirá a súa experiencia como membro da APCi e a súa participación nalgúns eventos e actividades.
+          footer:
+            SÁBADO 4 NOVEMBRO | 16:20 h | CGAC
+    - title: Àngela Montagud
       bio: |
         O seu perfil abrangue diferentes competencias, desde o deseño de interiores ata o *marketing* e a comunicación. Estudiou Arquitectura Técnica en Valencia e posteriormente completou a súa formación cun mestrado en Marketing e Comunicación. Despois dun ano traballando en Alemaña, en 2017 regresou a Valencia e fundou Clap Studio xunto ao seu socio Jordi Iranzo. 
 
@@ -235,6 +282,13 @@ speakers:
           url: https://www.instagram.com/weareclapstudio/
 
       img: /img/relatoras/anne-asensio.jpg
+      items:
+        - title: |
+            **Conferencia**: Asociación para a Promoción da Creación Industrial en Francia
+          description: |
+            Como membro da Xunta Directiva da APCI, e membro tamén da WDO, Organización Mundial do Deseño, Anne falaranos da súa extensa experiencia en empresas de automoción e da relación cercana que manteñen desde a APCI con empresas do eido industrial en Francia.
+          footer:
+            SÁBADO 4 NOVEMBRO | 16:50 h | CGAC
 
     - title: Isidro Ferrer
       bio: |
@@ -246,6 +300,13 @@ speakers:
       links:
         - type: Web
           url: https://www.isidroferrer.com/
+      items:
+        - title: |
+            **Conferencia**: A propósito de nada
+          description: |
+            Tomando como punto de partida algúns versos do *Libro sobre nada* do poeta brasileño Manoel de Barros, Isidro Ferrer realiza un pecorrido emocional e visual por unha selección dos sus últimos traballos. Traballos na esfera do público e o privado que, seguindo o ronsel do poeta, perseguen a desinvención dos obxectos e as cousas.
+          footer:
+            SÁBADO 4 NOVEMBRO | 18:10 h | CGAC
 
 location:
   title: Como chegar
@@ -265,10 +326,10 @@ location:
       Santiago de Compostela
 
 logos:
-  # - title: Organiza
-  #   items:
-  #     - alt: DAG
-  #       img: /img/logos/dag.svg
+  - title: Organiza
+    items:
+      - alt: DAG
+        img: /img/logos/dag.svg
   - title: Patrocina
     items:
       - alt: Agadic

@@ -87,12 +87,15 @@
           <div class="speakers-person">
             <h3>
               {{ speaker.title |> md(true) }}
+              {{ if speaker.bio }}
               &nbsp;&nbsp;
               <button class="speakers-bio-link" onclick="this.parentElement.nextElementSibling.showModal()">
                 Ler biografía
               </button>
+              {{ /if }}
             </h3>
 
+            {{ if speaker.bio }}
             <dialog class="speakers-dialog">
               <button class="speakers-dialog-close" onclick="this.parentElement.close()">Close</button>
 
@@ -106,7 +109,7 @@
               {{ /for }}
               </ul>
             </dialog>
-
+            {{ /if }}
 
             {{ for event of speaker.items }}
             <section class="speakers-event">
