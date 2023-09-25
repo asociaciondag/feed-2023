@@ -160,7 +160,7 @@
         {{ for logo of group.items }}
         <li>
           <a href="{{ logo.url }}" title="{{ logo.alt }}">
-            <img src="{{ logo.img }}" alt="{{ logo.alt }}">
+            <img src="{{ logo.img }}" alt="{{ logo.alt }}" width="{{ logo.width }}">
           </a>
         </li>
         {{ /for }}

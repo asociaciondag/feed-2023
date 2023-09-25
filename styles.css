@@ -492,10 +492,11 @@ html {
 	grid-template-columns: minmax(auto, 1200px);
 	justify-content: center;
 	padding: 5vw;
+	text-transform: uppercase;
 
 	> div {
 		display: flex;
-		column-gap: 4rem;
+		column-gap: 5rem;
 		row-gap: 2rem;
 
 		@media (max-width: 900px) {
@@ -506,24 +507,18 @@ html {
 		list-style: none;
 		padding: 0;
 		display: flex;
-		gap: 35px;
+		gap: 45px;
 		flex-wrap: wrap;
+		align-items: center;
 	}
 
 	& img {
-		height: 35px;
+		height: auto;
 	}
 	& a {
 		display: block;
 		&:hover {
 			opacity:0.5;
 		}
-	}
-
-	.Organiza img {
-		height: 40px;
-	}
-	.Patrocina img {
-		height: 40px;
 	}
 }

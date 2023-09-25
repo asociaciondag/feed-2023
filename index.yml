@@ -146,7 +146,7 @@ speakers:
           description: |
             Mediante formas e tipografía crearemos unha presentación cun comportamento audiovisual sobre un máximo de dous conceptos creativos. O resultado serán tres aplicacións animadas.
 
-            **Necesario:** Un ordenador portátil con After Effects e Media Encoder instalado. Levar rato (non so trackpad). Coñecementos en deseño gráfico, mais non é preciso ter altos coñecementos de animación. 
+            **Necesario:** Un ordenador portátil con After Effects e Media Encoder instalado. Levar rato (non so *trackpad*). Coñecementos en deseño gráfico, mais non é preciso ter altos coñecementos de animación. 
           footer:
             VENRES 3 NOVEMBRO | 10:00 h | DIDAC
         - title: |
@@ -234,15 +234,13 @@ speakers:
         - title: |
             **Obradoiro**: Deseño de negocios para negocios de deseño
           description: |
-            As persoas asistentes aprenderán sobre *Business Design* e poñerano en práctica con estudos de deseño e profesionais freelance. Haberá una parte teórica para dar contexto, e entender a metodoloxía, e logo traballarase en deseñar modelos de negocio atractivos e estratéxicos con técnicas de *Business Design.*
+            As persoas asistentes aprenderán sobre *Business Design* e poñerano en práctica con estudos de deseño e profesionais *freelance*. Haberá una parte teórica e logo traballarase en deseñar modelos de negocio atractivos e estratéxicos con técnicas de *Business Design.*
           footer:
             SÁBADO 4 NOVEMBRO | 10:00 h | CGAC
         - title: |
             **Conferencia**: Productividade en proxectos de deseño
           description: |
-            Dásenos ben deseñar pero… xestionar proxectos? Somos realmente produtivos/as? Estamos aliñados á estratexia de negocio? Cando falamos de produtividade pensamos en facer máis en menos tempo, en lugar de traballar de forma intelixente. Cando falamos de visión, estratexia e método, esquecémonos de que tamén se deseña.
-
-            Nesta charla Marta Falcón vai falar de pautas accionables sobre *Business Design,* para funcionar coa mellor estratexia e sacar adiante os nosos proxectos cunha produtividade sa.
+            Dásenos ben deseñar pero… xestionar proxectos? Somos realmente produtivos/as? Estamos aliñados á estratexia de negocio? Cando falamos de produtividade pensamos en facer máis en menos tempo, en lugar de traballar de forma intelixente. Cando falamos de visión, estratexia e método, esquecémonos de que tamén se deseña. Nesta charla Marta Falcón vai falar de pautas accionables sobre *Business Design,* para funcionar coa mellor estratexia e sacar adiante os nosos proxectos cunha produtividade sa.
           footer:
             SÁBADO 4 NOVEMBRO | 17:40 h | CGAC
     - title: Noemí Cortizas
@@ -330,28 +328,36 @@ logos:
     items:
       - alt: DAG
         img: /img/logos/dag.svg
+        width: 65
   - title: Patrocina
     items:
       - alt: Agadic
         img: /img/logos/agadic.svg
         url: https://industriasculturais.xunta.gal/
+        width: 125
   - title: Colabora
     items:
       - alt: AC/Española
         img: /img/logos/ace.svg
         url: https://www.accioncultural.es/
+        width: 65
       - alt: CGAC
         img: /img/logos/cgac.svg
         url: https://cgac.xunta.gal/
+        width: 150
       - alt: Didac
         img: /img/logos/didac.svg
         url: http://didac.gal/
+        width: 130
       - alt: Axeitos
         img: /img/logos/axeitos.svg
         url: https://axeitos.com
+        width: 110
       - alt: Anduriña
         img: /img/logos/andurina.svg
         url: https://www.andurina.com/
+        width: 100
       - alt: Serilua
         img: /img/logos/serilua.svg
         url: https://www.serilua.com
+        width: 40
