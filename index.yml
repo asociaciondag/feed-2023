@@ -60,7 +60,7 @@ timetable:
         - time: 18:00 - 19:00 h
           text: |
             **Mesa redonda**
-            <span>Modera:</span> Ipsum Lorem<br>
+            <span>Modera:</span> Xose García<br>
             <span>Participan:</span> María Agra, David Galar e José F. López Aguilar
         - time: 19:00 - 20:00 h
           text: |
@@ -105,7 +105,7 @@ timetable:
         - time: 18:40 - 19:30 h
           text: |
             **Mesa redonda**
-            <span>Modera:</span> Ipsum Lorem<br>
+            <span>Modera:</span> Thais Suárez<br>
             <span>Participan:</span> Noemí Cortizas, Àngela Montagud, Marta Falcón e Isidro Ferrer.
         - time: 19:30 - 20:00 h
           text: <span>Despedida e peche</span>
@@ -282,9 +282,9 @@ speakers:
       img: /img/relatoras/angela-montagud.jpg
       items:
         - title: |
-            **Conferencia**: Asociación para a Promoción da Creación Industrial en Francia
+            **Conferencia**: Creando local, comunicando global
           description: |
-            Como membro da Xunta Directiva da APCI, e membro tamén da WDO, Organización Mundial do Deseño, Anne falaranos da súa extensa experiencia en empresas de automoción e da relación cercana que manteñen desde a APCI con empresas do eido industrial en Francia.
+            En Clap a diferenciación e a comunicación son fundamentais para crear proxectos a nivel internacional e lograr a repercusión que buscan. Àngela falará dos procesos de creación do estudio e da importancia de comunicar o resultado dando valor á contorna local que os fai posible.
           footer:
             SÁBADO 4 NOVEMBRO | 16:50 h | CGAC
 
