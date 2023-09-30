@@ -5,7 +5,9 @@ import inline from "lume/plugins/inline.ts";
 import basePath from "lume/plugins/base_path.ts";
 import metas from "lume/plugins/metas.ts";
 
-const site = lume();
+const site = lume({
+  location: new URL("https://dag.gal/feed2023/"),
+});
 
 site.use(postcss());
 site.use(vento());

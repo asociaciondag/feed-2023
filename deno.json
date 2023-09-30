@@ -2,7 +2,8 @@
   "tasks": {
     "lume": "echo \"import 'lume/cli.ts'\" | deno run --unstable -A -",
     "build": "deno task lume",
-    "serve": "deno task lume -s"
+    "serve": "deno task lume -s",
+    "deploy": "deno task build && rsync -r _site/ 'dag@dag.gal:~/www/current/public/feed2023'"
   },
   "lock": false,
   "imports": {
