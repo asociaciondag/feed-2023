@@ -39,11 +39,11 @@ timetable:
         - time: 16:00 - 16:15 h
           text: |
             **Inauguración FEED 2023**
-            Xóse García e Jacobo Sutil
+            Xóse García e Anxo Lorenzo Suárez, director xeral de Cultura da Xunta de Galicia
         - time: 16:15 - 16:45 h
           text: |
             Conferencia
-            **Design From Recycling**
+            **Design from Recycling**
             José F. López Aguilar (Oiko Design Office)
         - time: 16:45 - 17:15 h
           text: |
@@ -90,7 +90,7 @@ timetable:
             Conferencia
             **Creando local, comunicando global**
             Àngela Montagud (Clap Studio)
-        - time: 17:20 - 17.40 h
+        - time: 17:20 - 17:40 h
           text: <span>Descanso</span>
         - time: 17:40 - 18:10 h
           text: |
